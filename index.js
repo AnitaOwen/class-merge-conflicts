@@ -1,8 +1,9 @@
-function createPerson(name, age) {
+function createPerson(name, age, hobby) {
     return {
       name,
       age,
       friends: [],
+      hobby: "",
     };
   }
   
