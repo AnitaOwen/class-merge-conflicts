@@ -13,7 +13,7 @@ function createPerson(name, age) {
   
   function fn(...c) {
     if (!c.every((a) => Number.isNumber(a)))
-      throw "All arguments must be numbers.";
+      throw "Please use numbers only.";
     return c.reduce((a, b) => a + b);
   }
   
