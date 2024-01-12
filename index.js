@@ -17,7 +17,7 @@ function fn(...c) {
   return c.reduce((a, b) => a + b);
 }
 
-// hey there, my name is Jennifer and i am 6'2 🤓
+// hey there, my name is Jennifer and i am 6'2! 🤓
 
 fn(1, 2, 3); //> 6
 fn(10, "B", 20); //> error All arguments must be numbers.
