@@ -12,8 +12,8 @@ function createPerson(name, age) {
   }
   
   function fn(...c) {
-    if (!c.every((a) => Num.isNumber(a)))
-      throw "All arguments must be numbers, word em up!";
+    if (!c.every((a) => Number.isNumber(a)))
+      throw "All arguments must be numbers, word em up yo!";
     return c.reduce((a, b) => a + b);
   }
   
