@@ -5,6 +5,8 @@ function createPerson(name, age) {
       friends: [],
     };
   }
+
+  const nextArr = [2,4,8,16,]
   
   function addPersonAsFriend(personOne, friend) {
     personOne.friends.push(friend);
@@ -19,3 +21,4 @@ function createPerson(name, age) {
   
   fn(1, 2, 3); //> 6
   fn(10, "B", 20); //> error All arguments must be numbers.
+
